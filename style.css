@@ -149,21 +149,25 @@ header {
 
 .welcome {
 	min-height: 822px;
-	position: relative;
+	/* position: relative; */
+	background-image: url(./assets/images/Louvre.jpg);
+	background-repeat: no-repeat;
+	background-position: right top;
+	background-size: 1215px 100%;
 }
 
-.welcome__img {
+/* .welcome__img {
 	max-width: 1215px;
 	max-height: 817px;
 	margin-bottom: 5px;
 	position: absolute;
 	left: 705px;
-}
+} */
 
 .welcome__description {
 	max-width: 635px;
 	padding-top: 209px;
-	position: relative;
+	/* position: relative; */
 }
 
 .description__title {
