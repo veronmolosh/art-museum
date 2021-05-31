@@ -293,3 +293,35 @@ header {
 	top: 0;
 	left: 69%;
 }
+
+/*Online tour*/
+
+.online {
+	min-height: 950px;
+	display: flex;
+}
+
+.online__video {
+	width: 100%;
+	min-height: 714px;
+	margin-top: 75px;
+	margin-bottom: 17px;
+}
+
+.online__description {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-wrap: nowrap;
+}
+
+.online__description-title {
+	color: #9d8665;
+	white-space: nowrap;
+	margin-right: 18px;
+}
+
+.online__description-text {
+	max-height: 878px;
+	font-weight: 300;
+}
