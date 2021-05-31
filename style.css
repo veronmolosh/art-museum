@@ -166,7 +166,7 @@ header {
 
 .welcome__description {
 	max-width: 635px;
-	padding-top: 209px;
+	padding-top: 193px;
 	/* position: relative; */
 }
 
@@ -175,7 +175,7 @@ header {
 }
 
 .description__text {
-	margin-bottom: 93px;
+	margin-bottom: 75px;
 	font-weight: 300;
 	font-size: 40px;
 	line-height: 54px;
@@ -252,4 +252,44 @@ header {
 .virtual-item__name {
 	font-weight: 300;
 	font-size: 15px;
+}
+
+/*PICTURE COMPARSION*/
+
+.comparsion {
+	min-height: 950px;
+	display: flex;
+}
+
+.comparsion__wrapper {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 75px;
+}
+
+.comparsion__description {
+	max-width: 590px;
+}
+
+.comparsion__description-text {
+	font-size: 40px;
+	font-weight: 300;
+	line-height: 65px;
+	margin-top: 52px;
+}
+
+.comparsion__image {
+	position: relative;
+}
+
+.comparsion__image img {
+	max-width: 790px;
+	min-height: 800px;
+}
+
+.comparsion__image-line {
+	position: absolute;
+	top: 0;
+	left: 69%;
 }
