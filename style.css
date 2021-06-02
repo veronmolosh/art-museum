@@ -417,3 +417,42 @@ header {
 	transform: scale(1.2);
 	transition-duration: 300ms;
 }
+
+/*Contacts*/
+
+.contacts {
+	min-height: 950px;
+	padding: 75px 0;
+}
+
+.contacts__title {
+	color: #9d8665;
+}
+
+.contacts-info {
+	display: flex;
+	justify-content: space-between;
+}
+
+.gallery-info {
+	width: 375px;
+}
+
+.gallery-info__title {
+	font-weight: 700;
+	margin: 39px 0 24px;
+}
+
+.gallery-info__contacts {
+	font-weight: 300;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 266px;
+}
+
+.contacts-info__map {
+	width: 799px;
+	height: 621px;
+	margin-top: 55px;
+}
