@@ -60,7 +60,7 @@ h2 {
 	font-size: 3em;
 	letter-spacing: 0.03em;
 	text-transform: uppercase;
-	font-weight: 400;
+	font-weight: 300;
 }
 
 h3 {
@@ -324,4 +324,96 @@ header {
 .online__description-text {
 	max-height: 878px;
 	font-weight: 300;
+}
+
+/*Buy tickets*/
+
+.tickets {
+	min-height: 950px;
+}
+
+.tickets__title {
+	padding-top: 75px;
+}
+
+.tickets__form {
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 75px;
+	margin-top: 79px;
+}
+
+.tickets__form-image {
+	width: 817px;
+	height: 597px;
+}
+
+.tickets__form-calc {
+	width: 513px;
+	height: 494px;
+}
+
+.calc__form {
+	width: 513px;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 35px;
+}
+
+.calc__form-title {
+	font-weight: 700;
+}
+
+.calc__form-type input:checked {
+	background: #fff;
+}
+
+.calc__form-type label {
+	/* white-space: nowrap; */
+	font-size: 25px;
+	font-weight: 400;
+	margin-top: 49px;
+}
+
+.calc__form-description {
+	font-size: 20px;
+	margin-top: 7px;
+}
+
+.counter {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border: 2px solid #fff;
+	width: 150px;
+	height: 52px;
+	padding: 0 15px;
+	margin-bottom: 39px;
+}
+
+.counter input {
+	background-color: inherit;
+	color: inherit;
+	border: none;
+	width: 18px;
+}
+
+.calc__total {
+	margin-bottom: 75px;
+	text-align: right;
+}
+
+.calc__btn {
+	position: relative;
+	left: 64%;
+	font-weight: 300;
+	background: #fff;
+	color: #000;
+	width: 185px;
+	height: 50px;
+}
+
+.calc__btn:hover {
+	transform: scale(1.2);
+	transition-duration: 300ms;
 }
